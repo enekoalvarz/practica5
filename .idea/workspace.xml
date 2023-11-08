@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84e45fba-830d-4a44-b1e8-54bfda4356f7" name="Changes" comment="funciona progressbar y texarea">
+    <list default="true" id="84e45fba-830d-4a44-b1e8-54bfda4356f7" name="Changes" comment="funciona tabla">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pck/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pck/Ventana.java" afterDir="false" />
     </list>
@@ -59,7 +59,9 @@
       <workItem from="1699350112713" duration="2786000" />
       <workItem from="1699358114848" duration="79000" />
       <workItem from="1699370220688" duration="13504000" />
-      <workItem from="1699434326845" duration="5951000" />
+      <workItem from="1699434326845" duration="6076000" />
+      <workItem from="1699442946141" duration="1539000" />
+      <workItem from="1699461363234" duration="8612000" />
     </task>
     <task id="LOCAL-00001" summary="text area meh">
       <option name="closed" value="true" />
@@ -77,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699439612043</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="funciona tabla">
+      <option name="closed" value="true" />
+      <created>1699440439526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699440439526</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="text area meh" />
     <MESSAGE value="funciona progressbar y texarea" />
-    <option name="LAST_COMMIT_MESSAGE" value="funciona progressbar y texarea" />
+    <MESSAGE value="funciona tabla" />
+    <option name="LAST_COMMIT_MESSAGE" value="funciona tabla" />
   </component>
 </project>
