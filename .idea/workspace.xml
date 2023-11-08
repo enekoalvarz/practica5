@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84e45fba-830d-4a44-b1e8-54bfda4356f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practica5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pck/UsuarioTwitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pck/Ventana.java" afterDir="false" />
+    <list default="true" id="84e45fba-830d-4a44-b1e8-54bfda4356f7" name="Changes" comment="text area meh">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pck/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pck/Ventana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +58,25 @@
       <updated>1699350111617</updated>
       <workItem from="1699350112713" duration="2786000" />
       <workItem from="1699358114848" duration="79000" />
-      <workItem from="1699370220688" duration="13069000" />
+      <workItem from="1699370220688" duration="13504000" />
+      <workItem from="1699434326845" duration="5196000" />
     </task>
+    <task id="LOCAL-00001" summary="text area meh">
+      <option name="closed" value="true" />
+      <created>1699385443363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699385443363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="text area meh" />
+    <option name="LAST_COMMIT_MESSAGE" value="text area meh" />
   </component>
 </project>
