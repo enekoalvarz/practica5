@@ -22,6 +22,7 @@ public class Ventana extends JFrame {
     protected TreeSet<String> usuariosconAmistades;
     protected HashMap<Integer, UsuarioTwitter> usuariosconAmistadesMap;
     protected DefaultTableModel modelo;
+    protected JTable tabla;
 
     public Ventana() {
         lineasProcesadas = 0;
@@ -36,11 +37,12 @@ public class Ventana extends JFrame {
         add(main);
 
         modelo = new DefaultTableModel();
-        JTable tabla = new JTable(modelo);
+        tabla = new JTable(modelo);
         JScrollPane scrollTabla = new JScrollPane(tabla);
         String[] cabeceras = {"ID", "ScreenName", "Followers Count", "Friends Count", "Language", "Last Seen"};
         modelo.setColumnIdentifiers(cabeceras);
         main.add(scrollTabla, BorderLayout.CENTER);
+
 
         textarea = new JTextArea();
         textarea.setRows(13);
@@ -76,7 +78,7 @@ public class Ventana extends JFrame {
 
 
             //AÑADIR A LA TABLA LOS QUE TIENEN MAS DE 10
-            usuariosconAmistadesMap.put(amigosDento, usuario); //TODO DEBERIA SER UN TREESET EN VEZ DE HASHAMP
+            //usuariosconAmistadesMap.put(amigosDento, usuario); //TODO DEBERIA SER UN TREESET EN VEZ DE HASHAMP, no necesario en verdad
             if(amigosDento > 10){
                 añadirUsuarioTabla(usuario);
             }
@@ -114,6 +116,7 @@ public class Ventana extends JFrame {
     private void añadirUsuarioTabla(UsuarioTwitter usuario){
         Object[] nuevo = {usuario.getId(), usuario.getScreenName(), usuario.getFollowersCount(), usuario.getFriendsCount(), usuario.getLang(), usuario.getLastSeen()};
         modelo.addRow(nuevo);
+        //tabla.repaint();
     }
 
     /*
