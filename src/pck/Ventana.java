@@ -113,6 +113,8 @@ public class Ventana extends JFrame {
             }
         });
 
+
+
         main.add(scrollTree, BorderLayout.WEST);
 
         tree.addTreeSelectionListener(new TreeSelectionListener() {
@@ -191,7 +193,7 @@ public class Ventana extends JFrame {
 
             //AÑADIR A LA TABLA LOS QUE TIENEN MAS DE 10
             //usuariosconAmistadesMap.put(amigosDento, usuario); //TODO DEBERIA SER UN TREESET EN VEZ DE HASHAMP, no necesario en verdad
-            if(amigosDento > 0){ //TODO CAMBIAR ESTE VALOR A 10, HE PUESTO 0 PARA QUE APAREZCAN CON LA VERSION CORTA DEL CSV
+            if(amigosDento > 10){
                 añadirUsuarioTabla(usuario);
                 countUsuarioEnTabla++;
             }

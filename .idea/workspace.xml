@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84e45fba-830d-4a44-b1e8-54bfda4356f7" name="Changes" comment="funciona tabla">
+    <list default="true" id="84e45fba-830d-4a44-b1e8-54bfda4356f7" name="Changes" comment="Terminado (menos TreeSet)">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lastFile.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lastFile.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pck/GestionTwitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pck/GestionTwitter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pck/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pck/Ventana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +64,13 @@
       <workItem from="1699370220688" duration="13504000" />
       <workItem from="1699434326845" duration="6076000" />
       <workItem from="1699442946141" duration="1539000" />
-      <workItem from="1699461363234" duration="8612000" />
+      <workItem from="1699461363234" duration="9436000" />
+      <workItem from="1699541265443" duration="504000" />
+      <workItem from="1699542111500" duration="1124000" />
+      <workItem from="1699552793717" duration="93000" />
+      <workItem from="1699629409977" duration="2280000" />
+      <workItem from="1699898369830" duration="199000" />
+      <workItem from="1699898595447" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="text area meh">
       <option name="closed" value="true" />
@@ -87,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699440439526</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Terminado (menos TreeSet)">
+      <option name="closed" value="true" />
+      <created>1699470211290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699470211290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +114,7 @@
     <MESSAGE value="text area meh" />
     <MESSAGE value="funciona progressbar y texarea" />
     <MESSAGE value="funciona tabla" />
-    <option name="LAST_COMMIT_MESSAGE" value="funciona tabla" />
+    <MESSAGE value="Terminado (menos TreeSet)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado (menos TreeSet)" />
   </component>
 </project>

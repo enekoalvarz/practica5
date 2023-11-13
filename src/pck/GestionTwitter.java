@@ -1,22 +1,20 @@
 package pck;
 
+import javax.swing.*;
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 
 public class GestionTwitter {
 
-	//public static HashMap<String, UsuarioTwitter> usuarios_id;
-	//public static HashMap<String, UsuarioTwitter> usuarios_nick;
 	private static final String PROPERTIES_FILE = "lastFile.properties";
 	protected static String rutaFichero = "";
 
 	public static void main(String[] args) {
-		//Ventana.sacarConsolaPorVentana();
 
 		Ventana v = new Ventana();
-
 
 	}
 	protected static void añadirUsuariosPorNick(HashMap<String, UsuarioTwitter> mapa) {
@@ -33,14 +31,15 @@ public class GestionTwitter {
 	}
 
 	protected static void cargarDatosdeCSV(){
+		/*
 		try {
-			rutaFichero = "C:\\Users\\alvar\\Downloads\\data.csv"; //todo esta puesta la version corta
+			rutaFichero = "C:\\Users\\alvar\\Downloads\\data.csv";
 			CSV.processCSV( new File( rutaFichero ) );
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		 */
 
-		/*                                        TODO FUNCIONA PERO NO VOY A ESTAR CON ESTO ACTIVADO TODO EL RATO YA LO ACTIVO PARA ENTREGAR
 		Properties properties = new Properties();
 		String lastFilePath = "";
 		File lastFile = new File(PROPERTIES_FILE);
@@ -58,6 +57,7 @@ public class GestionTwitter {
 		if (returnVal == JFileChooser.APPROVE_OPTION) {
 			File selectedFile = fileChooser.getSelectedFile();
 			lastFilePath = selectedFile.getAbsolutePath();
+			rutaFichero = lastFilePath;
 			try {
 				properties.setProperty("lastFile", lastFilePath);
 				try (FileOutputStream fos = new FileOutputStream(lastFile)) {
@@ -73,8 +73,6 @@ public class GestionTwitter {
 		} else {
 			System.out.println("No se ha seleccionado ningún archivo.");
 		}
-
- */
 
 	}
 
